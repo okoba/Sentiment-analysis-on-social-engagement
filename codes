@@ -1,0 +1,134 @@
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+from nltk.corpus import words
+import random
+
+nltk.download('vader_lexicon')
+nltk.download('words')
+
+# define the sentence
+sentence = " would you be more likely to participate in social events if they were more accessible and budget friendly?
+"
+
+# load the SentimentIntensityAnalyzer
+sia = SentimentIntensityAnalyzer()
+
+# get list of English words
+word_list = words.words()
+
+# loop through 7014 times to generate outputs
+for i in range(7014):
+    # generate a random sentence using the original sentence
+    random_sentence = ' '.join([random.choice(word_list) for _ in sentence.split()])
+    
+    # calculate the sentiment score of the random sentence
+    sentiment_scores = sia.polarity_scores(random_sentence)
+    
+    # determine the sentiment of the random sentence based on the compound score
+    if sentiment_scores['compound'] >= 0:
+        print('yes')
+    else:
+        print('no')
+        
+        
+        
+        
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+from nltk.corpus import words
+import random
+
+nltk.download('vader_lexicon')
+nltk.download('words')
+
+# define the sentence
+sentence = " would you be more inclined to participate in social activities that provide opportunities for personal growth and self discovery?
+"
+
+# load the SentimentIntensityAnalyzer
+sia = SentimentIntensityAnalyzer()
+
+# get list of English words
+word_list = words.words()
+
+# loop through 7014 times to generate outputs
+for i in range(7014):
+    # generate a random sentence using the original sentence
+    random_sentence = ' '.join([random.choice(word_list) for _ in sentence.split()])
+    
+    # calculate the sentiment score of the random sentence
+    sentiment_scores = sia.polarity_scores(random_sentence)
+    
+    # determine the sentiment of the random sentence based on the compound score
+    if sentiment_scores['compound'] >= 0:
+        print('yes')
+    else:
+        print('no')
+        
+        
+        
+        import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+from nltk.corpus import words
+import random
+
+nltk.download('vader_lexicon')
+nltk.download('words')
+
+# define the sentence
+sentence = " Would you pay to get invites or tickets to social gatherings involving your social interest?
+"
+
+# load the SentimentIntensityAnalyzer
+sia = SentimentIntensityAnalyzer()
+
+# get list of English words
+word_list = words.words()
+
+# loop through 7014 times to generate outputs
+for i in range(7014):
+    # generate a random sentence using the original sentence
+    random_sentence = ' '.join([random.choice(word_list) for _ in sentence.split()])
+    
+    # calculate the sentiment score of the random sentence
+    sentiment_scores = sia.polarity_scores(random_sentence)
+    
+    # determine the sentiment of the random sentence based on the compound score
+    if sentiment_scores['compound'] >= 0:
+        print('yes')
+    else:
+        print('no')
+        
+        
+        
+              import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+from nltk.corpus import words
+import random
+
+nltk.download('vader_lexicon')
+nltk.download('words')
+
+# define the sentence
+sentence = "  would you be more likely to participate in social events if they were more accessible and budget friendly?
+"
+
+# load the SentimentIntensityAnalyzer
+sia = SentimentIntensityAnalyzer()
+
+# get list of English words
+word_list = words.words()
+
+# loop through 7014 times to generate outputs
+for i in range(7014):
+    # generate a random sentence using the original sentence
+    random_sentence = ' '.join([random.choice(word_list) for _ in sentence.split()])
+    
+    # calculate the sentiment score of the random sentence
+    sentiment_scores = sia.polarity_scores(random_sentence)
+    
+    # determine the sentiment of the random sentence based on the compound score
+    if sentiment_scores['compound'] >= 0:
+        print('yes')
+    else:
+        print('no')
